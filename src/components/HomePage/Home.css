@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+.home{
+    width: 100%;
+    height: 120vh;
+    /* background-image: linear-gradient(to right bottom, #401568, #481c75, #4f2381, #572b8f, #5e329c);     */
+    /* background-image: url("../../assets/Homepagebanner.png"); */
+    background-image: url("../../assets/Home.png");
+    background-color: rgb(3, 3, 49);
+    background-size: cover
+
+}
+/* HOMEPAGE CSS */
+
+.homepage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 70px; */
+ }
+
+.homepage_left{
+    width: 570px;
+    height: 380px;
+    /* margin-left: 70px; */
+    font-size: 26px;
+    /* align-items: center; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.saanzz_color{
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 75px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-weight: 700;
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+}
+.digital_color{
+    font-size: 75px;
+    color: #ffffff;
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    
+    font-weight: 700;
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+}
+.discovery{
+    color: rgb(255, 255, 255);
+    /* background: conic-gradient(from 180.02deg at 50% 90%, rgba(255, 255, 255, 0.92) 0deg, #ffffff 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+}
+.keywords{
+    font-weight: 500;
+    color: white;
+    /* background: conic-gradient(from 180.02deg at 50% 90%, rgba(255, 255, 255, 0.92) 0deg, #ffffff 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+
+}
+.landing_page_icons{
+    width: 500px;
+    margin-top: 70px;
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+}
+.homepage_connect_with_us_title{
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 246, 236);
+    /* margin-top: 70px; */
+    padding-top: 40px;
+    display: flex;justify-content: center;
+    font-size: 2rem;
+    font-family: 'Outfit', sans-serif;
+}
+.what_we_do_title{
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.what_we_do{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Outfit', sans-serif;
+}
+.do_left>img{
+    width: 450px;
+    margin-top: 45px;
+}
+.do_right{
+    background-color: rgb(254, 252, 255);
+    width: 50%;
+    height: 270px;
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin: 40px;
+    border-radius: 20px;
+    padding: 20px 60px 40px 40px;
+    border: 1px solid black;
+    box-shadow: 0px 0px rgb(137, 0, 241), 1.2rem 0 .8rem rgb(147, 147, 147);
+    font-family: 'Outfit', sans-serif;
+}
+.our_pride{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    background-image: url("../../assets/Service_landingPage.png");
+    background-size: cover;
+}
+.ou_pride_left>img{
+    width: 500px;
+    margin-top: 230px;
+    border-radius: 0px 30px 30px 0px;
+}
+.ourpride_content{
+    font-size: 20px;
+    width: 700px;
+    height: 450px;
+    background-color: rgb(244, 239, 234);
+    padding: 50px 50px 20px 50px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: 150px;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: 21px 29px 50px rgba(0, 0, 0, 0.5);
+    
+}
+.ourpride_content>h1{
+    margin-bottom: 25px;
+}
+.ourpride_bottom{
+    /* padding: 20px 80px 20px 80px; */
+    padding: 50px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    background-color: rgb(244, 239, 234);
+    /* background-image: url("../../assets/diffrent.png"); */
+}
+.ourpride_bottom>h3{
+    font-size: 3rem;
+}
+.why_saanzz_digital{
+    display: flex;
+    /* background-color: rgb(244, 239, 234); */
+    background-image: url("../../assets/why_saanzz.png");
+    padding-top: 40px;
+    font-size: 18px;
+    justify-content: space-evenly;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    height: 450px;
+}
+.why_saanzz{
+    margin-bottom: 40px;
+}
+.why_saanzz_digital_left{
+    /* border: 1px solid black; */
+    width: 500px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+
+}
+.why_saanzz_digital_right>img{
+    width: 300px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.feedback{
+    width: 100%;
+    /* height: 90vh; */
+    padding: 80px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right top, #7683de, #8581e2, #967fe5, #a67de7, #b779e7);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+}
+.feedback_boxes{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.feedback_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 260px;
+    height: 320px;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.client_name{
+    font-style: italic;
+}
+
+@media (max-width: 998px) {
+    
+    .homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .homepage_left{
+        width: 380px;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 18px;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+    }
+    .saanzz_color{
+        font-size: 50px;
+    }
+    .digital_color{
+        font-size: 50px;
+    }
+    .discovery{
+        padding-top: 20px;
+    }
+    .landing_page_icons{
+        width: 400px;
+        text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+    }
+    .what_we_do{
+        flex-direction: column;
+    }
+    .do_right{
+        width: 90%;
+        height: 430px;
+        margin: 18px;
+        box-shadow: 0px 0px rgb(255, 255, 255), 1.2rem 0 .8rem rgb(255, 255, 255);
+        background-color: rgb(255, 246, 236);
+        padding: 55px 40px 40px 40px;
+    }
+    .do_left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .do_left>img{
+        width: 330px;
+        margin-top: 45px;
+        border-radius: 10px;
+    }
+    .our_pride{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+        margin-top: 60px;
+    }
+    .ou_pride_left>img{
+        width: 280px;
+        margin: 30px 0px 0px 50px;
+        border-radius: 0px 30px 30px 0px;
+    
+    }
+    .ourpride_content{
+        font-size: 15px;
+        width: 300px;
+        height: 420px;
+        padding: 30px 20px 50px 20px;
+        margin-top: 180px;
+    }
+    .ourpride_bottom{
+        padding: 50px 20px 20px 20px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 20px;
+        box-shadow: 21px 29px 50px rgba(0, 0, 0, 0.5);
+    }
+    .why_saanzz_digital{
+        display: flex;
+        margin-top: 60px;
+        font-size: 15px;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .why_saanzz_digital_left{
+        width: 400px;
+        padding-left: 20px;
+        font-size: 15px;
+        
+    }
+    .why_saanzz_digital_right>img{
+        width: 270px;
+    }
+    .feedback{
+        font-size: 1.3rem;
+        /* height: 100%; */
+    }
+    .feedback_boxes{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .feedback_box{
+        width: 200px;
+        height: 260px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media(max-width: 740px){
+    .our_pride{
+        /* height: 600px; */
+        margin-top: 40px;
+        /* border: 1px solid red; */
+        align-items: start;
+    }
+    .ou_pride_left>img{
+        width: 280px;
+        border-radius: 0px 30px 30px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+    .why_saanzz_digital{
+        height: 600px;
+        display: flex;
+        margin-top: 60px;
+        font-size: 14px;
+        /* justify-content: space-evenly; */
+        /* flex-direction: column-reverse; */
+    }
+    .why_saanzz_digital_left{
+        width: 350px;
+        padding-left: 20px;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .why_saanzz_digital_right>img{
+        width: 170px;
+    }
+    .feedback{
+        width: 100%;
+        padding: 10px 0px;
+        overflow: hidden;
+    }
+    .feedback>img{
+        width: 140%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .homepage{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .homepage_left{
+        width: 340px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 0px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .saanzz_color{
+        font-size: 45px;
+    }
+    .digital_color{
+        font-size: 45px;
+    }
+    .landing_page_icons{
+        width: 340px;
+        margin-left: 0px;
+        text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+    }
+    .our_pride{
+        /* height: 650px; */
+        justify-content: space-evenly;
+    }
+    .ou_pride_left>img{
+        width: 280px;
+        border-radius: 0px 30px 30px 0px;
+    }
+    .ourpride_content{
+        font-size: 17px;
+        width: 340px;
+        height: 440px;
+        padding: 20px 10px 25px 10px;
+        margin-top: 0px;
+        border-radius: 0px 30px 30px 0px;
+    }
+}
+
+@media (max-width: 350px) {
+    .homepage_left{
+        width: 280px;
+        margin-left: 0px;
+    }
+    .landing_page_icons{
+        width: 280px;
+    }
+}
